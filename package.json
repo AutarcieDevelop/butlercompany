@@ -1,6 +1,7 @@
 {
   "name": "butler",
   "version": "1.0.0",
+  "homepage": "https://autarciedevelop.github.io/butlercompany/",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "dependencies": {
@@ -21,8 +22,12 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
