@@ -1,0 +1,85 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color:white;
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.title {
+    text-align: center;
+    margin:25px;
+    margin-top: 150px;
+    font-size: 3.5rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+}
+
+.container_items {
+    box-sizing: border-box;
+    background-color: rgb(37, 78, 153);
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: white;;
+}
+
+.description{
+    font-size: 2.5rem;
+}
+
+.service-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.service-item {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.container-top {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.content:before {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../../Pictures/electricity_art.jpg');
+    opacity: .4;
+    content: "";
+    z-index: -1;
+}
+
+/* setting icons size*/
+.icon {
+    padding-top:10px;
+    height: 100px;;
+}
+
+.footer {
+    margin-top: 20px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.footer h3 {
+    margin-top: 5px;
+}
