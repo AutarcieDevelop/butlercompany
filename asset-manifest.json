@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/butlercompany/static/css/main.c218331b.css",
+    "main.js": "/butlercompany/static/js/main.6f7514a3.js",
+    "static/js/787.9ed03c06.chunk.js": "/butlercompany/static/js/787.9ed03c06.chunk.js",
+    "static/media/electricity_art.jpg": "/butlercompany/static/media/electricity_art.b8bc3f52dfba5c9365b9.jpg",
+    "index.html": "/butlercompany/index.html",
+    "main.c218331b.css.map": "/butlercompany/static/css/main.c218331b.css.map",
+    "main.6f7514a3.js.map": "/butlercompany/static/js/main.6f7514a3.js.map",
+    "787.9ed03c06.chunk.js.map": "/butlercompany/static/js/787.9ed03c06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c218331b.css",
+    "static/js/main.6f7514a3.js"
+  ]
+}
